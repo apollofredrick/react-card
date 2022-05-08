@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+    color: azure;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1px solid greenyellow;
+    padding: 30px;
+
+}
+.profile{
+    border-radius: 15px;
+    width: 25vw;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    margin: auto;
+    width: 40%;
+    color: lightgray;
+}
+.about{
+    margin: auto;
+    margin-top: 30px;
+    width: 40%;
+}
+.interest{
+    margin: auto;
+    margin-top: 30px;
+    width: 40%;
+    background-color: #3c3b3f;
+    opacity: 0.5;
+}
+.footer{
+        margin: auto;
+        margin-top: 30px;
+        width: 40%;
+        background-color: #3c3b3f;
+}
+h1{
+    color:aquamarine;
+}
+
+.button{
+    display:inline-block;
+    margin-right: 40px;
+    background-color:#3c3b3f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.button:hover{
+    color:green;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
